@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_puts - print a string followed by a new line
+ *_puts- print a string followed by a new line
  *@str: input string
  *Return: no return
  */
@@ -15,10 +15,10 @@ while (count >= 0)
 if (str[count] == '\0')
 {
   
-_puts('\n');
+_putchar('\n');
 break;
 }
-_puts(str[count]);
+_putchar(str[count]);
 count++;
 }
 }
