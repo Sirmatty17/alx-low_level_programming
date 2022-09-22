@@ -9,7 +9,7 @@
  *
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int num1 = 0, num2 = 0;
 
@@ -28,6 +28,4 @@ char *_strcat(char *dest, char *src);
 	}
 	return(dest);
 }
-
-
 
