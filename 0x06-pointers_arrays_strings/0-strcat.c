@@ -3,7 +3,7 @@
 /**
  * _strcat - concatenates two strings
  *
- * @dest: destination 
+ * @dest: destination
  * @src: source
  * Return: pointer to dest
  *
@@ -21,11 +21,11 @@ char *_strcat(char *dest, char *src)
 	while (num2 >= 0)
 	{
 		*(dest + num1) = *(src + num2);
-		if(*(src + num2) == '\0')
-				break;
+		if (*(src + num2) == '\0')
+			break;
 		num1++;
 		num2++;
 	}
-	return(dest);
+	return (dest);
 }
 
