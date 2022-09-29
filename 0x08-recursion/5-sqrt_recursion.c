@@ -16,7 +16,7 @@ int square_root(int n, int j)
 		else
 			return (-1);
 	}
-	return (0 + square_root(n, j + 10));
+	return (0 + square_root(n, j + 1));
 }
 /**
  * _sqrt_recursion - find natural square root of a number
