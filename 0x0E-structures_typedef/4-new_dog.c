@@ -9,7 +9,7 @@
  * Return: returns NULL if the function fails
  */
 
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(cihar *name, float age, char *owner)
 {
 	dog_t *p_dog;
 	int i, nname, nowner;
@@ -18,7 +18,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (p_dog == NULL || !(name) || !(owner))
 	{
-		free(n_dog);
+		free(p_dog);
 		return (NULL);
 	}
 	for (nname = 0; name[nname]; nname++)
