@@ -6,13 +6,11 @@ fmt:	db "%s", 10, 0
 	extern printf
 	global main
 main:
-	
 	mov esi, msg
 	mov edi, fmt
 	mov eax, 0
-	ca printf
+	call printf
 
 	mov eax, 0
 	ret
 Footer
-
