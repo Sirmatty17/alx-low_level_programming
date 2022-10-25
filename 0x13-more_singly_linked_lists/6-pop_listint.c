@@ -19,6 +19,7 @@ int pop_listint(listint_t **head)
 	h = latest->next;
 	free(latest);
 	*head = h;
+
 	return (node_head);
 }
 
