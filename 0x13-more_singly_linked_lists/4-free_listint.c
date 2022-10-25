@@ -8,7 +8,7 @@
 
 void free_listint(listint_t *head)
 {
-	listint_t *empty
+	listint_t *empty;
 
 		while ((empty = head) != NULL)
 		{
